@@ -1,0 +1,191 @@
+body{
+	background-color: #2ec4b6;
+	margin: 0;
+	padding: 0;
+}
+.center{
+	width: 75%;
+	margin: 0 auto;
+	background-color: white;
+	margin-bottom: 4rem;
+
+}
+
+.gamesimg{
+	width: auto;
+	max-width: 180px;
+	max-height: 190px;
+	display: block;
+	margin: 0 auto;
+}
+
+.game{
+	display: inline-table;
+	width: 15rem;
+	height: 18rem;
+}
+
+.game:hover{
+	opacity: 0.8;
+}
+
+.games{
+	display: inline-flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.gamemargin{
+	margin: 1rem;
+	background-color: #e4e4e4;
+}
+
+.infoimg{
+	max-height: 25rem;
+	
+}
+
+.header{
+	font-size: 3rem;
+	text-align: center;
+	margin: 0;
+	color: white;
+	padding: 1rem 0 2rem;
+}
+
+
+
+.info{
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-around;
+	margin: 2rem 0;
+
+
+}
+
+.gamenaam {
+	text-align: center;
+}
+
+.spelinfo{
+	background-color: #e4e4e4;
+    border-radius: 5px;
+    padding: 1rem;
+    max-width: 10rem;
+}
+
+.datumtijd{
+	background-color: #e4e4e4;
+    padding: 1rem;
+}
+
+footer{
+	text-align: center;
+	background-color: #011627;
+	color: white;
+	padding: 2rem;
+}
+
+.naamgame{
+	text-align: center;
+	background-color: #011627;
+	color: white;
+	padding: 2rem;
+	margin-top: 0;
+}
+
+.menu{
+	color: white;
+	margin-bottom: 0;
+	display: inline-flex;
+	margin: 0;
+}
+
+header{
+	background-color: #011627;
+}
+
+.menu-item{
+	list-style-type: none;
+	padding: 1rem;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.menu-item:hover{
+	background-color: #4e5052;
+}
+
+.datumplanning{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+
+.nieuw{
+	display: block;
+	margin: 1rem auto;
+	padding: 0.5rem;
+}
+
+.addPlanning{
+	display: block;	
+}
+
+.selectGame{
+	display: block;
+	margin: 2rem;
+	text-align: center;
+}
+
+.addUitlegger{
+	display: block;
+	margin: 2rem;
+	text-align: center;
+}
+
+.verwijderplanning{
+	color: red;
+	text-decoration: none;
+	padding: 0.5rem;
+	font-weight: bold;
+}
+
+.bewerkplanning{
+	color: green;
+	text-decoration: none;
+	padding: 0.5rem;
+	font-weight: bold;
+}
+
+.bewerk{
+	display: flex;
+	justify-content: space-around;
+}
+
+.names{
+	width: 10rem;
+    text-align: center;
+}
+
+.sorteren{
+	display: block;
+	text-align: center;
+}
+
+.zekerknop{
+	margin: 1rem;
+	padding: 0.5rem;
+	border: 1px solid black;
+	width: 20rem;
+	color: white;
+	background-color: #011627; 
+	text-decoration: none;
+}
+
+.zekerknop:hover{
+	background-color: #4e5052;
+}
